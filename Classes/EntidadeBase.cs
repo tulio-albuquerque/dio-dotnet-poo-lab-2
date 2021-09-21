@@ -1,8 +1,9 @@
-namespace DIO.Series
+using System;
+
+namespace DIO.Biblioteca
 {
-    public abstract class EntidadeBase
+    public class EntidadeBase
     {
         public int Id { get; protected set; }
-
     }
 }

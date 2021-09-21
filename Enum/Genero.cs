@@ -1,6 +1,8 @@
-namespace DIO.Series
+using System;
+
+namespace DIO.Biblioteca
 {
-	public enum Genero
+    public enum Genero
 	{
 		Acao = 1,
 		Aventura = 2,

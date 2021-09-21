@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "/home/eliezer/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\tulio\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/eliezer/sandbox/dio/DIO.Series/DIO.Series.csproj",
-      "projectName": "DIO.Series",
-      "projectPath": "/home/eliezer/sandbox/dio/DIO.Series/DIO.Series.csproj",
-      "packagesPath": "/home/eliezer/.nuget/packages/",
-      "outputPath": "/home/eliezer/sandbox/dio/DIO.Series/obj/",
+      "projectUniqueName": "D:\\Learnspace\\DigitalInnovationOne\\dio-dotnet-poo-lab-2\\DIO.Biblioteca.csproj",
+      "projectName": "DIO.Biblioteca",
+      "projectPath": "D:\\Learnspace\\DigitalInnovationOne\\dio-dotnet-poo-lab-2\\DIO.Biblioteca.csproj",
+      "packagesPath": "C:\\Users\\tulio\\.nuget\\packages\\",
+      "outputPath": "D:\\Learnspace\\DigitalInnovationOne\\dio-dotnet-poo-lab-2\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/home/eliezer/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\tulio\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -34,6 +30,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -45,6 +42,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -55,12 +53,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.17, 3.1.17]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
